@@ -9,7 +9,7 @@ fppkl=fp[:-3]+"pkl"
 
 with open(fppkl,"rb") as fin:
     loaded_tree=pickle.load(fin)
-
+#contains tree data
 
 with open(fp,"rb") as fin:
     data=fin.read()
