@@ -1,5 +1,5 @@
 import os
-
+#Code to read and write data into compressed file and decompress the image
 # A Function That Reads an Image as Binary Data and Returns a String of bits
 def read_image_bit_string(path):
     with open(path, 'rb') as image:

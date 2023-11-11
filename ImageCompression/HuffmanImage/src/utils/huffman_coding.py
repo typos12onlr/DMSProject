@@ -2,7 +2,7 @@ import heapq
 import os
 import utils.file_handling as file_handling
 
-
+#code to create the huffman code
 class node:
 
     def __init__(self, frequency, symbol, left=None, right=None):
@@ -69,7 +69,7 @@ def compress(image_bit_string):
     huffman_codes=calculate_huffman_codes(merged_huffman_tree)
     #print(huffman_codes)
     file_handling.write_dictionary_file(huffman_codes,
-                                        "ImageCompression/HuffmanImage/src/huffman_codes.txt")
+                                        "ImageCompression/HuffmanImage/src/huffmancodes.txt")
     return get_compressed_image(image_bit_string)
 
 
