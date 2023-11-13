@@ -1,4 +1,4 @@
-# Shrinkr- A file compression tool
+# Text and Image Compression Techniques: Implementation and A Comprehensive Survey
 ## Introduction
 
 We live in a fast growing computing world with a need of safe, optimised and consistent communication systems which require a lot of data to be transferred, large-sized or small.
